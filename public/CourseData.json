@@ -2,7 +2,7 @@
   {
     "index": 0,
     "price": "$40",
-    "image": "http://placehold.it/32x32",
+    "image": "https://i.ytimg.com/vi/_Q4pGe6GyR4/maxresdefault.jpg",
     "lessons": 6,
     "instructor": "Ibrahim",
     "CourseName": "Complex Analysis",
@@ -72,7 +72,7 @@
   {
     "index": 5,
     "price": "$40",
-    "image": "http://placehold.it/32x32",
+    "image": "https://edublink.react.devsblink.com/course-details/8",
     "lessons": 6,
     "instructor": "Ibrahim",
     "CourseName": "Complex Analysis",

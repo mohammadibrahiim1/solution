@@ -15,9 +15,9 @@ const Courses = () => {
   }, []);
   return (
     <div className="row container m-auto">
-      <div className="col-4">
-        <h3>all categories</h3>
-        <ul className="list-style-none">
+      <div className="col-4 text-start">
+        <h4 className="text-start">all categories</h4>
+        <ul className="category-list bg-light py-3">
           <li>Masters</li>
           <li>Honours</li>
           <li>Hsc</li>

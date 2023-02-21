@@ -1,0 +1,54 @@
+.heading-container {
+  padding: 125px 0 110px;
+  background-color: #f5f9fa;
+}
+
+.heading-container h1 {
+  color: #181818;
+  font-family: "Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+.img-2 {
+  position: absolute;
+  top: 10%;
+  right: -3%;
+}
+.img-3 {
+  position: absolute;
+  top: 17%;
+  left: 12%;
+}
+.img-1 {
+  position: absolute;
+  top: 25%;
+  right: 22%;
+}
+
+.contact-img {
+  border-radius: 50%;
+}
+
+.contact-info h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #181818;
+}
+.contact-link {
+  list-style-type: none;
+}
+
+.icon {
+  height: 42px;
+  width: 42px;
+  color: grey;
+  border-color: #e5e5e5;
+  transition: .3s;
+}
+.icon:hover {
+  background-color: #1ab69d;
+  color: #FFFFFF;
+}
+
+

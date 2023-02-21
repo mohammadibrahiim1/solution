@@ -11,18 +11,18 @@ const Contact = () => {
           <img
             src="https://i.ibb.co/C92hb6m/shape-15.png"
             alt=""
-            className="img-1"
+            className="img-1 d-none d-lg-block d-md-none d-sm-none"
           />
           <h1 className="">Contact Me</h1>
           <img
             src="https://i.ibb.co/c1MYk8f/shape-07.png"
             alt=""
-            className="img-2"
+            className="img-2 d-none d-md-none d-sm-noe d-lg-block"
           />
           <img
             src="https://i.ibb.co/0DrgsY4/shape-13.png"
             alt=""
-            className="img-3"
+            className="img-3 d-none d-md-none d-sm-none d-lg-block"
           />
         </div>
       </section>

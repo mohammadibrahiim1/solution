@@ -44,11 +44,9 @@
   width: 42px;
   color: grey;
   border-color: #e5e5e5;
-  transition: .3s;
+  transition: 0.3s;
 }
 .icon:hover {
   background-color: #1ab69d;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
-

@@ -1,6 +1,11 @@
 import React from "react";
 import "./Contact.css";
-import { FaFacebookF,FaLinkedinIn,FaTwitter,FaShareAlt } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaTwitter,
+  FaShareAlt,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
@@ -29,14 +34,14 @@ const Contact = () => {
       <section>
         <div className="row container m-auto mt-5 pt-5">
           {/* <a href="https://ibb.co/G5D6vT4"><img src="https://i.ibb.co/rwhjGsR/contact-me.jpg" alt="contact-me" border="0"></a> */}
-          <div className="col-6 mt-2">
+          <div className="col col-md-6 col-sm-12 col-lg-6 mt-2">
             <img
               src="https://i.ibb.co/rwhjGsR/contact-me.jpg"
               alt=""
               className="contact-img"
             />
           </div>
-          <div className="col-6 text-start contact-info">
+          <div className=" col col-sm-12 col-md-6 col-lg-6  text-sm-center m-auto text-md-start text-lg-start contact-info">
             <h2>
               I will Answer all Your <br /> Questions
             </h2>
@@ -55,17 +60,16 @@ const Contact = () => {
               <p>+012 54369 87</p>
             </div>
             <div className="mt-4">
-            
-              <Link to='/' className="me-4">
+              <Link to="/" className="me-4">
                 <FaShareAlt className="icon p-2 border rounded" />
               </Link>
-              <Link to='/' className="me-4">
+              <Link to="/" className="me-4">
                 <FaFacebookF className="icon p-2 border rounded" />
               </Link>
-              <Link to='/' className="me-4">
+              <Link to="/" className="me-4">
                 <FaTwitter className="icon p-2 border rounded" />
               </Link>
-              <Link to='/' className="me-4">
+              <Link to="/" className="me-4">
                 <FaLinkedinIn className="icon p-2 border rounded" />
               </Link>
             </div>
